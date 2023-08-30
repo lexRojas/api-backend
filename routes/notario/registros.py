@@ -1,7 +1,7 @@
 from fastapi import APIRouter
 from config.db  import conn
 
-registros = APIRouter();
+registros = APIRouter()
 
 @registros.get("/registros")
 async def getRegistros():

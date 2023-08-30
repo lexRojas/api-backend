@@ -1,7 +1,7 @@
 from fastapi import APIRouter
 from config.db  import conn
 
-actos = APIRouter();
+actos = APIRouter()
 
 @actos.get("/actos")
 async def geActos(idRegistro = "-1"):
