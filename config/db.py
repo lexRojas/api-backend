@@ -12,17 +12,17 @@ from models.modelos import DataBaseModel
 
 #---LOCAL DATABASE ----
 
-_hostname ='localhost'
-_username ='basedatos'
-_password ='basedatos'
-_database ='notario'
+# _hostname ='localhost'
+# _username ='basedatos'
+# _password ='basedatos'
+# _database ='notario'
 
 #---HEROKU DATABASE ----
 
-# _hostname = 'jtb9ia3h1pgevwb1.cbetxkdyhwsb.us-east-1.rds.amazonaws.com'
-# _username = 'vl0v51r0t6ald9dh'
-# _password = 'nq5d3dq46cc551cj'
-# _database = 'u67qxne0bs0uujx8' 
+_hostname = 'jtb9ia3h1pgevwb1.cbetxkdyhwsb.us-east-1.rds.amazonaws.com'
+_username = 'vl0v51r0t6ald9dh'
+_password = 'nq5d3dq46cc551cj'
+_database = 'u67qxne0bs0uujx8' 
 
 
 # SQLALCHEMY 
